@@ -1,0 +1,15 @@
+// ltl-qr-encode/main.ltl
+//
+// QR-code (model-2) encoder with mask evaluation.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-qr-encode v0.1.0")
+    io::println("QR-code (model-2) encoder with mask evaluation.")
+    0
+}
